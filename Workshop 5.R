@@ -60,7 +60,7 @@ model_fit <- model_spec %>% fit(data = Boston, medv~age+crim+rm)
 # step 3
 second_model <- augment(model_fit, new_data = Boston)
 
-
+tidy(model_fit)
 
 
 
